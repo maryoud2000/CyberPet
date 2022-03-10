@@ -1,9 +1,10 @@
 class Pet{
     constructor(petName, hunger, bored, thirst) {
         this._petName = petName;
-        this._hunger = 100;
-        this._bored = 100;
-        this._thirst = 100;
+        this._hunger = 50;
+        this._bored = 50;
+        this._thirst = 50;
+        this._intervalID = 0;
     }
 get petName() {
     return this._petName;
